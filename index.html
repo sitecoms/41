@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Втеча від Пітухів</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div id="player">👨</div>
+        <div id="enemies"></div>
+        <div id="hud">
+            <div>Час: <span id="time">0</span>с</div>
+            <div>Рекорд: <span id="record">0</span>с</div>
+        </div>
+        <div id="game-over">
+            <h2>Гру закінчено!</h2>
+            <p>Ваш результат: <span id="final-score">0</span>с</p>
+            <button onclick="restart()">Спробувати знову</button>
+        </div>
+    </div>
+    <script src="static/game.js"></script>
+</body>
+</html>
